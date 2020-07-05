@@ -1,0 +1,86 @@
+{
+	"pages": [
+		{
+		"path": "pages/joke/joke",
+		"style": {
+			"navigationBarTitleText": "笑话",
+			"navigationBarBackgroundColor" : "#43c1b4"
+			}
+		},
+		{
+		"path" : "pages/joke/joke_detail",
+		"style" : {
+			"navigationBarTitleText": "内容",
+			"navigationBarBackgroundColor" : "#43c1b4"
+			}
+        },
+		{
+		"path" : "pages/oneiromancy/oneiromancy",
+		"style" : {
+			"navigationBarTitleText": "小秋来解梦",
+			"navigationBarBackgroundColor" : "#43c1b4"
+			}
+		}
+		,{
+		    "path" : "pages/oneiromancy/dream_content",
+		    "style" : {
+				"navigationBarTitleText": "梦的解释",
+				"navigationBarBackgroundColor" : "#43c1b4"
+			}
+		}
+        ,{
+            "path" : "pages/news_search/news_search",
+            "style" : {
+				"navigationBarTitleText": "新闻搜索",
+				"navigationBarBackgroundColor" : "#43c1b4"
+			}
+        }
+        ,{
+            "path" : "pages/news_search/new_content",
+            "style" : {
+				"navigationBarTitleText": "新闻列表",
+				"navigationBarBackgroundColor" : "#43c1b4"
+			}
+        }
+        ,{
+            "path" : "pages/news_search/web",
+            "style" : {
+				"navigationBarTitleText": "详情",
+				"navigationBarBackgroundColor" : "#43c1b4"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#43c1b4",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+			"color":"#8a8a8a",
+			"selectedColor":"#d4237a",
+			"borderStyle":"black",
+			"backgroundColor":"#ffffff",
+			"list": [
+				{
+					"pagePath":"pages/joke/joke",
+					"text":"笑话",
+					"iconPath":"static/joke1.png",
+					"selectedIconPath":"static/joke2.png"
+				},
+				{
+					"pagePath":"pages/oneiromancy/oneiromancy",
+					"text":"解梦",
+					"iconPath":"static/dream1.png",
+					"selectedIconPath":"static/dream2.png"
+				},
+				{
+					"pagePath":"pages/news_search/news_search",
+					"text":"新闻",
+					"iconPath":"static/news1.png",
+					"selectedIconPath":"static/news2.png"
+				}
+			]	
+	}
+
+}

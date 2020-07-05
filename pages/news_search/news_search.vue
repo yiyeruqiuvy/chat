@@ -12,7 +12,7 @@
 			</button>
 			比如这些热点：
 			<br>
-			<view v-for="hotspot in hotspots" :key="hotspot.id">
+			<view v-for="hotspot in hotspots" :key="hotspot.id" @click="search(hotspot)">
 				{{ hotspot }}
 			</view>
 		</view>

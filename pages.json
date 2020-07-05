@@ -4,7 +4,8 @@
 		"path": "pages/joke/joke",
 		"style": {
 			"navigationBarTitleText": "笑话",
-			"navigationBarBackgroundColor" : "#43c1b4"
+			"navigationBarBackgroundColor" : "#43c1b4",
+			"enablePullDownRefresh": true
 			}
 		},
 		{
